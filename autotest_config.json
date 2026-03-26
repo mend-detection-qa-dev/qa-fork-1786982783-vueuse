@@ -5,7 +5,7 @@
     "validate_scan_output": true,
     "_comment_validate_scan_output": "Whether to validate the scan output/exit code. Options: true | false. Default: true",
     "scan_output": {
-      "security_scan_report_conclusion": "success",
+      "_security_scan_report_conclusion": "success",
       "_comment_security_scan_report_conclusion": "Optional. Expected scan report conclusion. Options: 'success' | 'failure'. This validates the security scan result status. If not provided, this check will not be performed.",
       "total_libs_scanned": {
         "eq": 183
@@ -42,7 +42,7 @@
           "@vueuse/core-14.2.1.tgz",
           "@vueuse/components-14.2.1.tgz",
           "@vueuse/metadata-14.2.1.tgz",
-          "vue-3.5.30.tgz",
+          "vue-3.5.31.tgz",
           "@vueuse/electron-14.2.1.tgz",
           "@vueuse/math-14.2.1.tgz",
           "@vueuse/nuxt-14.2.1.tgz",
