@@ -42,7 +42,7 @@
           "@vueuse/core-14.2.1.tgz",
           "@vueuse/components-14.2.1.tgz",
           "@vueuse/metadata-14.2.1.tgz",
-          "vue-3.5.35.tgz",
+          "vue-3.5.38.tgz",
           "@vueuse/electron-14.2.1.tgz",
           "@vueuse/math-14.2.1.tgz",
           "@vueuse/nuxt-14.2.1.tgz",
@@ -51,15 +51,15 @@
       },
       "transitive_dependencies_names_list": {
         "contains": [
-          "@vue/shared-3.5.35.tgz",
-          "@vue/compiler-core-3.5.35.tgz",
-          "@vue/compiler-dom-3.5.35.tgz",
-          "@vue/compiler-sfc-3.5.35.tgz",
-          "@vue/compiler-ssr-3.5.35.tgz",
-          "@vue/reactivity-3.5.35.tgz",
-          "@vue/runtime-core-3.5.35.tgz",
-          "@vue/runtime-dom-3.5.35.tgz",
-          "@vue/server-renderer-3.5.35.tgz",
+          "@vue/shared-3.5.38.tgz",
+          "@vue/compiler-core-3.5.38.tgz",
+          "@vue/compiler-dom-3.5.38.tgz",
+          "@vue/compiler-sfc-3.5.38.tgz",
+          "@vue/compiler-ssr-3.5.38.tgz",
+          "@vue/reactivity-3.5.38.tgz",
+          "@vue/runtime-core-3.5.38.tgz",
+          "@vue/runtime-dom-3.5.38.tgz",
+          "@vue/server-renderer-3.5.38.tgz",
           "@vue/shared-3.5.27.tgz",
           "@vue/compiler-core-3.5.27.tgz",
           "@vue/compiler-dom-3.5.27.tgz",
@@ -150,7 +150,7 @@
       "expected_reachable_libraries": {
         "contains": []
       },
-      "_comment_expected_reachable_libraries": "Optional. List of libraries with their reachable vulnerabilities. Each entry should have 'library_name' and 'vulnerabilities' (list of CVE IDs). Operators: eq (==) - exact match, contains (all expected libraries found in actual). Example: {'contains': [{'library_name': 'loader-utils-1.4.0.tgz', 'vulnerabilities': ['CVE-2022-37601']}]}. If not provided, this check will not be performed.",
+      "_comment_expected_reachable_libraries": "Optional. List of libraries with their reachable vulnerabilities. Each entry should have 'library_name' and 'vulnerabilities' (list of CVE IDs). Operators: eq (==) - exact match, contains (all expected libraries found in actual). Example: {'contains': [{'library_name': 'loader-utils-1.4.0.tgz', 'library_name': 'loader-utils-2.0.0.tgz', 'vulnerabilities': ['CVE-2022-37601']}]}. If not provided, this check will not be performed.",
       "expected_unreachable_libraries": {
         "contains": []
       },
